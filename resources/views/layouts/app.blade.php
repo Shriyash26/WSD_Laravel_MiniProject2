@@ -3,8 +3,9 @@
 @include('includes.head')
 
 <body>
+@include('includes.header')
+
     <div id="app">
-        @include('includes.header')
         <main class="py-4">
             @yield('content')
         </main>
