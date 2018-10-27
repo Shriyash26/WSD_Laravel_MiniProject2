@@ -18,6 +18,6 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/welcomePageStyles.css') }}" rel="stylesheet">
+    <link href="../css/welcomePageStyles.css" rel="stylesheet">
 
 </head>
