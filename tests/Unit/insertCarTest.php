@@ -14,7 +14,7 @@ class insertCarTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testInsertCar()
     {
 //        $car= new Car();
 //        $car->make = 'Honda';

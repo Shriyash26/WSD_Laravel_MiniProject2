@@ -14,7 +14,7 @@ class carYearDataTypeTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testCarYearDataType()
     {
         $car = car::inRandomOrder()->first();
         $year = (int)$car->Year;

@@ -15,7 +15,7 @@ class deleteUserTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testDeleteUser()
     {
         $user= new User();
         $user->name = 'abcd';

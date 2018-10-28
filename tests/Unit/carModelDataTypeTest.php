@@ -14,7 +14,7 @@ class carModelDataTypeTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testCarModelDataType()
     {
         $car = car::inRandomOrder()->first();
         $model = $car->Model;

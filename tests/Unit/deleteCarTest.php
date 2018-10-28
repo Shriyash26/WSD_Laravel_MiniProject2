@@ -14,7 +14,7 @@ class deleteCarTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testDeleteCar()
     {
         $car= new car();
         $car->make = 'Honda';

@@ -14,7 +14,7 @@ class carMakeCompanyTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testCarMakeCompany()
     {
         $car = Car::inRandomOrder()->first();
         $this->assertContains($car->Make, ["Honda", "Ford", "Toyota"]);

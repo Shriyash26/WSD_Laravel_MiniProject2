@@ -15,7 +15,7 @@ class countNumberOfrecordsTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testCountNumberOfrecords()
     {
         $user = User::all();
         $recordCount = $user->count();

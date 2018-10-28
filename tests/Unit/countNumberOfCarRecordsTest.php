@@ -14,7 +14,7 @@ class countNumberOfCarRecordsTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testCountNumberOfCarRecords()
     {
         $car = car::all();
         $carRecordsCount = $car->count();
