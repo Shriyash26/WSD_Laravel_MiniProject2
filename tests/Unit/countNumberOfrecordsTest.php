@@ -19,6 +19,6 @@ class countNumberOfrecordsTest extends TestCase
     {
         $user = User::all();
         $recordCount = $user->count();
-        $this->assertEquals(51, $recordCount);
+        $this->assertEquals(50, $recordCount);
     }
 }

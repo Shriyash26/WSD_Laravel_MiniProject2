@@ -16,11 +16,11 @@ class insertCarTest extends TestCase
      */
     public function testInsertCar()
     {
-//        $car= new Car();
-//        $car->make = 'Honda';
-//        $car->model = 'Accord';
-//        $car->year = '1998';
-//        $this->assertTrue($car->save());
-        $this->assertTrue(true);
+        $car= new Car();
+        $car->make = 'Honda';
+        $car->model = 'Accord';
+        $car->year = '1998';
+        $this->assertTrue($car->save());
+//        $this->assertTrue(true);
     }
 }

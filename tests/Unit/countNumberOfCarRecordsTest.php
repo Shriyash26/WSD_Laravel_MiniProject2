@@ -18,6 +18,6 @@ class countNumberOfCarRecordsTest extends TestCase
     {
         $car = car::all();
         $carRecordsCount = $car->count();
-        $this->assertEquals(51,$carRecordsCount);
+        $this->assertEquals(50,$carRecordsCount);
     }
 }

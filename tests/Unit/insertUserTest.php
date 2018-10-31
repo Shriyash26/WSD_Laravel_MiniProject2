@@ -16,12 +16,12 @@ class insertUserTest extends TestCase
      */
     public function testInsertUser()
     {
-//        $user= new User();
-//        $user->name = 'S.S.Mahajan';
-//        $user->email = 'shriyash@gmail.com';
-//        $user->password = '123456';
-//        $this->assertTrue($user->save());
-        $this->assertTrue(true);
+        $user= new User();
+        $user->name = 'S.S.Mahajan';
+        $user->email = 'shriyash@gmail.com';
+        $user->password = '123456';
+        $this->assertTrue($user->save());
+//        $this->assertTrue(true);
 
 
     }
